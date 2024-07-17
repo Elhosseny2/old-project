@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0.5rem;
+    font-family: monospace;
+    text-align: center;
+    background-image: url('background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed ;
+    background-size: cover;
+    padding: 5% 10%;
+    font-size: 2rem;
+}
+nav{
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem; 
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+h2 {
+    background-image: url(download.jpg);
+    border-radius: 2rem 2rem 0 0 ;
+    color: whitesmoke;
+    text-shadow: 0 0 10px #5cfaff,
+     0 0 20px #5cfaff,
+     0 0 30px #5cfaff,
+     0 0 40px #5cfaff;
+}
+
+ul{
+    list-style-type: none;
+}
+li {
+    border-top: #333 1px solid;
+}
+li a {
+    display: block;
+}
+li a, 
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+li a:hover ,li a:focus{
+    background-color: #333;
+    color: whitesmoke;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}

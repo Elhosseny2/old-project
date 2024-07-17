@@ -1,0 +1,31 @@
+body{
+    background-image: url('vegetables-set-left-black-slate_1220-685.avif');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed ;
+    background-size: cover;
+    padding: 5% 10%;
+    font-size: 2rem;
+}
+ol , ul ,h2 ,header {
+    color: wheat;
+}
+header {
+    font-size: 4rem;
+}
+ol{ 
+
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 1.5;
+}
+ul{
+list-style-position: inside;
+}
+ ul ::marker {
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy;
+    content: "only $5 >>";
+    
+} 
